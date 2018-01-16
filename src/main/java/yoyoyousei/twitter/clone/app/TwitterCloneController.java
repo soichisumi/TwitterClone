@@ -56,7 +56,6 @@ public class TwitterCloneController {
 
         //default attribute name is Classname whose first letter is lower case.
 
-
         User loginUser = Util.getLoginuserFromPrincipal(principal);
         model.addAttribute("userinfo", loginUser);
 
